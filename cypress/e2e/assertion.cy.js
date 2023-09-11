@@ -10,9 +10,10 @@ it('assertions', () => {
     // .should('be.disable')
     // and command also working assertion 
 
+// Explicit assertion  
 
+expect(true).to.be.true
 
-    
-
-
+assert.equal(4,'4','NOT EQUAL')
+assert.strictEqual(4,'4','NOT EQUAL')
   })
